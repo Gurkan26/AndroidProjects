@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TasarımOdevRadioButtonIntentKavram</string>
+    <string name="rb1_name">14 SP</string>
+    <string name="rb2_name">18 SP</string>
+    <string name="rb3_name">20 SP</string>
+    <string name="rb4_name">24 SP</string>
+    <string name="rbColor1_name">Yeşil</string>
+    <string name="rbColor2_name">Mor</string>
+    <string name="rbColor3_name">Kırmızı</string>
+    <string name="rbColor4_name">Mavi</string>
+    <string name="lorem">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Ciceros De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with: “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.” The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesnt distract from the layout. A practice not without controversy, laying out pages with meaningless filler text can be very useful when the focus is meant to be on design, not content.</string>
+</resources>

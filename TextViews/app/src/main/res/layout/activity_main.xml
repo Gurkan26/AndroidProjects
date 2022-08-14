@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/adSoyad"
+        android:layout_width="355dp"
+        android:layout_height="180dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="148dp"
+        android:alpha="1"
+        android:autoSizeMaxTextSize="20sp"
+
+
+        android:autoSizeMinTextSize="10sp"
+        android:autoSizeTextType="uniform"
+        android:background="@color/tvarkaplan"
+        android:drawableTop="@drawable/ic_baseline_4k_24"
+        android:drawableBottom="@drawable/ic_baseline_4k_24"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/tvisim"
+        android:textAllCaps="false"
+        android:textColor="@color/tvcolor"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:drawableLeftCompat="@drawable/ic_baseline_4k_24"
+        app:drawableRightCompat="@drawable/ic_baseline_4k_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/clickMe"
+        android:layout_width="192dp"
+        android:layout_height="86dp"
+        android:layout_above="@+id/adSoyad"
+        android:layout_alignStart="@+id/adSoyad"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="70dp"
+        android:gravity="center"
+        android:text="Activity - 2 'ye geçiş"
+        android:textColor="#FFFFFFFF"
+        app:layout_constraintTop_toBottomOf="@+id/adSoyad"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="103dp" />
+
+</RelativeLayout>

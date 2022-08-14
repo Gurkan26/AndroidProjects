@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DısardanVeriAlma</string>
+    <string name="edit_text_hint">Lütfen ismini buraya gir</string>
+    <string name="butonName">Tıkla</string>
+</resources>
