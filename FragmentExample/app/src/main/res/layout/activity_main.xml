@@ -6,13 +6,41 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainer"
+        android:layout_width="423dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="130dp"
+        app:layout_constraintBottom_toTopOf="@+id/fragmentbtn1"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
+    <Button
+        android:id="@+id/fragmentbtn2"
+        android:layout_width="151dp"
+        android:layout_height="67dp"
+        android:layout_marginEnd="17dp"
+        android:backgroundTint="@color/black"
+        android:text="FRAGMENT-2"
+        app:layout_constraintBottom_toBottomOf="@+id/fragmentbtn1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/fragmentbtn1"
+        app:layout_constraintTop_toTopOf="@+id/fragmentbtn1"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/fragmentbtn1"
+        android:layout_width="176dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="27dp"
+        android:backgroundTint="@color/black"
+        android:text="FRAGMENT-1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/fragmentbtn2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragmentContainer"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
