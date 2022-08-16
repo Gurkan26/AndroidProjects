@@ -1,6 +1,7 @@
 package com.example.fragmentretrofitexample
 
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
@@ -42,6 +43,7 @@ class TodoAdapter : RecyclerView.Adapter<TodoAdapter.TodoViewHolder>() {
     }
 
     override fun onBindViewHolder(holder: TodoViewHolder, position: Int) {
+
         holder.binding.apply {
             val todo = todos[position]
             tvTitle.text=todo.title
