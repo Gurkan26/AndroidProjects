@@ -5,21 +5,18 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
-import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 
-import com.example.fragmentretrofitexample.databinding.Fragment1Binding
+import com.example.fragmentretrofitexample.databinding.FragmentABinding
 import retrofit2.HttpException
 import java.io.IOException
 
 const val TAG = "Fragment1"
 
-class Fragment1 : Fragment(R.layout.fragment1) {
-    private lateinit var binding: Fragment1Binding
+class Fragment1 : Fragment(R.layout.fragment_a) {
+    private lateinit var binding: FragmentABinding
     private lateinit var todoAdapter: TodoAdapter
 
 
@@ -29,7 +26,7 @@ class Fragment1 : Fragment(R.layout.fragment1) {
         savedInstanceState: Bundle?
     ): View? {
 
-        binding = Fragment1Binding.inflate(inflater, container, false)
+        binding = FragmentABinding.inflate(inflater, container, false)
         setupRecyclerView()
         lifecycleScope.launchWhenCreated() {
 

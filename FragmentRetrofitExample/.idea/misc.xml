@@ -4,9 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/gurka/AndroidStudioProjects/FragmentRetrofitExample/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/gurka/AndroidStudioProjects/FragmentRetrofitExample/app/src/main/res/layout/fragment1.xml" value="0.27936507936507937" />
+        <entry key="..\:/Users/gurka/AndroidStudioProjects/FragmentRetrofitExample/app/src/main/res/layout/fragment1.xml" value="0.25" />
         <entry key="..\:/Users/gurka/AndroidStudioProjects/FragmentRetrofitExample/app/src/main/res/layout/fragment2.xml" value="0.1" />
+        <entry key="..\:/Users/gurka/AndroidStudioProjects/FragmentRetrofitExample/app/src/main/res/layout/fragment_2.xml" value="0.22" />
+        <entry key="..\:/Users/gurka/AndroidStudioProjects/FragmentRetrofitExample/app/src/main/res/layout/fragment_a.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/gurka/AndroidStudioProjects/FragmentRetrofitExample/app/src/main/res/layout/item_todo.xml" value="0.2675925925925926" />
+        <entry key="..\:/Users/gurka/AndroidStudioProjects/FragmentRetrofitExample/app/src/main/res/menu/my_menu.xml" value="0.18697916666666667" />
       </map>
     </option>
   </component>
